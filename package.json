@@ -10,8 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
     "d3": "^5.16.0",
     "vuepress": "^1.5.0",
+    "vuepress-plugin-font-awesome": "^1.90.6",
     "vuepress-plugin-mathjax": "^1.2.8"
   },
   "devDependencies": {
