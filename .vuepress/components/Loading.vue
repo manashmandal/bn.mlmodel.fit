@@ -1,8 +1,8 @@
 <template>
   <div id="load-div" v-loading.body="loading">
     <h1 id="title">
-      <font-awesome-icon icon="user-secret" />{{
-        title || "Writing In Progress..."
+      <font-awesome-icon icon="edit" id="edit-icon" />{{
+        title || "লেখালিখির কাজ চলছে..."
       }}
     </h1>
   </div>
@@ -25,5 +25,9 @@ export default {
 <style scoped>
 #load-div {
   width: 100%;
+}
+
+#edit-icon {
+  margin-right: 10px;
 }
 </style>
