@@ -2,7 +2,7 @@
   <div id="load-div" v-loading.body="loading">
     <h1 id="title">
       <font-awesome-icon icon="edit" id="edit-icon" />{{
-        title || "লেখালিখির কাজ চলছে..."
+        title || "লেখালেখির কাজ চলছে..."
       }}
     </h1>
   </div>
