@@ -24,7 +24,11 @@ module.exports = {
       {
         title: "মেশিন লার্নিংয়ে কাজের ধারা",
         collapsible: true,
-        children: ["/workflow/", "/workflow/howto-ask-question/"],
+        children: [
+          "/workflow/",
+          "/workflow/howto-ask-question/",
+          "/workflow/data-processing/",
+        ],
         sidebarDepth: 0,
       },
     ],
