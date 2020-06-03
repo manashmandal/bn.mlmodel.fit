@@ -16,9 +16,15 @@ module.exports = {
         sidebarDepth: 0,
       },
       {
+        title: "মেশিন লার্নিং টুলবক্স",
+        collapsible: true,
+        children: ["/toolbox/", "/toolbox/jupyter-notebook/"],
+        sidebarDepth: 0,
+      },
+      {
         title: "মেশিন লার্নিংয়ে কাজের ধারা",
         collapsible: true,
-        children: ["/workflow/"],
+        children: ["/workflow/", "/workflow/howto-ask-question/"],
         sidebarDepth: 0,
       },
     ],
