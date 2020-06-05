@@ -145,7 +145,7 @@ $$\frac{\delta}{\delta \theta} J(\theta_{j}) = \frac{1}{m} \sum_{i=1}^{m} \left(
 
 `{`
 
-$$\theta_{0} := \theta_{0} - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( h_{\theta} (x^{(i)}) - y^{(i)} \right)$
+$$\theta_{0} := \theta_{0} - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( h_{\theta} (x^{(i)}) - y^{(i)} \right)$$
 
 $$\theta_{1} := \theta_{1} - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( h_{\theta} (x^{(i)}) - y^{(i)} \right)x^{(i)}$$
 
