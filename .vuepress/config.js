@@ -50,7 +50,8 @@ module.exports = {
           "/linear-regression/gradient-descent/",
           "/linear-regression/multivariable-lr/",
           "/linear-regression/practical-lr/",
-          "/linear-regression/gradient-descent-varieties/"
+          "/linear-regression/gradient-descent-varieties/",
+          "/linear-regression/gradient-descent-normal-form/",
         ],
         sidebarDepth: 0,
       },
