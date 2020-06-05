@@ -139,7 +139,7 @@ $$\theta_{j} := \theta_{j} - \alpha \frac{\delta}{\delta \theta_{j}} J(\theta_{j
 
 $$\frac{\delta}{\delta \theta} J(\theta_{j}) = \frac{1}{m} \sum_{i=1}^{m} \left( h_{\theta} (x^{(i)} - y^{(i)}) \right)$$
 
-### যখন,$ n = 1 $
+### যখন, $n = 1$
 
 `Repeat`
 
@@ -151,7 +151,7 @@ $$\theta_{1} := \theta_{1} - \alpha \frac{1}{m} \sum_{i=1}^{m} \left( h_{\theta}
 
 `}`
 
-### পরিবর্তিত সূত্র, যখন$ n \ge 1 $
+### পরিবর্তিত সূত্র, যখন $n \ge 1$
 
 `Repeat {`
 
