@@ -49,6 +49,7 @@ module.exports = {
           "/linear-regression/",
           "/linear-regression/gradient-descent/",
           "/linear-regression/multivariable-lr/",
+          "/linear-regression/practical-lr/",
         ],
         sidebarDepth: 0,
       },
@@ -56,14 +57,20 @@ module.exports = {
   },
   plugins: [
     [
-      "vuepress-plugin-mathjax",
+      "@maginapp/vuepress-plugin-katex",
       {
-        target: "svg",
-        macros: {
-          "*": "\\times",
-        },
+        delimiters: "dollars",
       },
     ],
+    // [
+    //   "vuepress-plugin-mathjax",
+    //   {
+    //     target: "svg",
+    //     macros: {
+    //       "*": "\\times",
+    //     },
+    //   },
+    // ],
     ["element-ui"],
   ],
 };
