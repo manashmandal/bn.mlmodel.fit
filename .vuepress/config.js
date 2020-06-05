@@ -66,6 +66,14 @@ module.exports = {
           "/logistic-regression/practical-implementation/",
         ],
       },
+      {
+        title: "মাল্টিক্লাস ক্লাসিফিকেশন",
+        collapsible: true,
+        sidebarDepth: 0,
+        children: [
+          "/softmax-regression/"
+        ]
+      }
     ],
   },
   plugins: [
