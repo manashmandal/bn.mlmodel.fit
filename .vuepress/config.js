@@ -1,6 +1,11 @@
 module.exports = {
   title: "মেশিন লার্নিং ও বিভিন্ন প্রোগ্রামিং ল্যাঙ্গুয়েজে ইম্প্লিমেন্টেশন",
   description: "বাংলায় মেশিন লার্নিং সহজ শিক্ষা",
+  markdown: {
+    extendMarkdown: (md) => {
+      md.use(require("markdown-it-task-lists"));
+    },
+  },
   themeConfig: {
     sidebar: [
       {
@@ -31,7 +36,8 @@ module.exports = {
           "/workflow/data-preprocessing-last/",
           "/workflow/algorithm-selection/",
           "/workflow/model-training/",
-          "/workflow/performance-testing/"
+          "/workflow/performance-testing/",
+          "/workflow/performance-testing-last/",
         ],
         sidebarDepth: 0,
       },
