@@ -41,6 +41,12 @@ module.exports = {
         ],
         sidebarDepth: 0,
       },
+      {
+        title: "লিনিয়ার রিগ্রেশন",
+        collapsible: true,
+        children: ["/linear-regression/"],
+        sidebarDepth: 0,
+      },
     ],
   },
   plugins: [
