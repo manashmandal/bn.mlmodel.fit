@@ -9,7 +9,7 @@
 
 আমরা আজকে মেশিন লার্নিংয়ের দ্বিতীয় ধাপ দেখব। দ্বিতীয় ধাপে ছিল,
 
-![prepare_data_workflow](http://i.imgur.com/qTjV2Wi.jpg)
+![prepare_data_workflow](https://i.imgur.com/qTjV2Wi.jpg)
 
 
 মেশিন লার্নিং মানেই ডেটা নিয়ে কাজ কারবার, তাই আমি যদি বলি, ডেটা সংগ্রহ, প্রসেস করতেই মডেল বিল্ডিংয়ের সবচেয়ে বেশি সময় ব্যয় হয় সেটা আশ্চর্যের কিছু নয়।
@@ -75,12 +75,12 @@
     * বেশ কিছু ইউনিভার্সিটি ফ্রি তে ডেটাসেট দিয়ে থাকে, যেমন University of California Irvine। এদের নিজস্ব ডেটা রিপোজিটরি আছে যেখান থেকে আপনি ডেটা কালেক্ট করতে পারবেন।
 
 
-  * **[Kaggle](http://www.kaggle.com)**
+  * **[Kaggle](https://www.kaggle.com)**
 
     * মেশিন লার্নিং নিয়ে কাজ করবেন অথচ Kaggle এর নাম জানবেন না তা হয় না। একে ডেটা সাইন্টিস্টদের codeforce বলতে পারেন। ডেটা অ্যানালাইসিস নিয়ে নিয়মিত কন্টেস্ট হয় ওখানে। হাই গ্রেড ডেটাসেট এর জন্য অতুলনীয়।
 
 
-  * **[GitHub](http://www.github.com)**
+  * **[GitHub](https://www.github.com)**
 
     * জ্বি হ্যাঁ, গিটহাবেও প্রচুর পরিমানে ডেটা পাওয়া যায়। [এই Awesome Dataset Collection চেক করতে পারেন](https://github.com/caesar0301/awesome-public-datasets)
 
@@ -154,7 +154,7 @@
 ## Pandas লাইব্রেরি দিয়ে ডেটা এক্সপ্লোরেশন
 
 
-ipython notebook সম্পর্কে কিছুটা জেনেছেন তো? না জেনে থাকলে [এখান থেকে](http://ml.howtocode.com.bd/module_intro/ipython_notebook.html) একবার দেখে নিন।
+ipython notebook সম্পর্কে কিছুটা জেনেছেন তো? না জেনে থাকলে [এখান থেকে](https://ml.howtocode.com.bd/module_intro/ipython_notebook.html) একবার দেখে নিন।
 
 * উইন্ডোজে থাকলে `cmd` ওপেন করুন ও নিচের কমান্ড দিয়ে নোটবুক ওপেন করুন
    * `ipython notebook`
@@ -177,7 +177,7 @@ import numpy as np
 
 ### ডেটা লোড ও রিভিউ
 
-![import](http://i.imgur.com/egqIvbd.gif)
+![import](https://i.imgur.com/egqIvbd.gif)
 
 #### `pd.read_csv('file_path')`
 

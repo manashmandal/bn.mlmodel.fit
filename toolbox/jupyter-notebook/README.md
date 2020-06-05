@@ -48,11 +48,11 @@
 - কোড লিখে `Enter` চাপলে নতুন লাইনে লেখা যাবে
 - `Shift + Enter` চাপলে একটা `Cell` এক্সিকিউট হবে
 
-![ipython_demo](http://i.imgur.com/JX1RvyC.gif)
+![ipython_demo](https://i.imgur.com/JX1RvyC.gif)
 
 ### নোট ও কোড একসাথে (বাংলা সাপোর্টেড!)
 
-![ipython_demo2](http://i.imgur.com/ILQIhPD.gif)
+![ipython_demo2](https://i.imgur.com/ILQIhPD.gif)
 
 ### আরও একটুখানি IPython Notebook!
 
@@ -70,6 +70,6 @@ plt.plot(x, y)
 plt.show()
 ```
 
-![ipython_plot](http://i.imgur.com/8j3gWiv.gif)
+![ipython_plot](https://i.imgur.com/8j3gWiv.gif)
 
 IPython এর কাজ দেখানো এই পর্যন্তই! পরবর্তীতে নতুন প্যাকেজগুলোর সাথে পরিচয় করিয়ে দেওয়া হবে।

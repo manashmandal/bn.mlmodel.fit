@@ -21,7 +21,7 @@
 	
 আমরা এখনো এই ধাপে,
 
-![performance_step](http://i.imgur.com/YglPD3U.png)
+![performance_step](https://i.imgur.com/YglPD3U.png)
 
 
 # মডেল পারফর্মেন্স রিভিশন - ROC 
@@ -143,7 +143,7 @@ plt.legend(loc='lower center')
 plt.show()
 ```
 
-![roc](http://i.imgur.com/UhTzNYS.png)
+![roc](https://i.imgur.com/UhTzNYS.png)
 
 উদাহরণটি উইকিপিডিয়া থেকে নেয়া, উইকিপিডিয়ার ROC কার্ভে অতিরিক্ত কিছু জিনিস পয়েন্ট আউট করে দেওয়া আছে,
 
@@ -221,7 +221,7 @@ $$Y = ax^{3} + bx - \lambda x$$
 
 থিওরি দেখলাম, এবার প্র্যাক্টিক্যাল দেখার পালা। এখন আপনাকে অবশ্যই নোটবুক বের করে কোড লিখতে হবে।
 
-![code](http://i.imgur.com/7vs17wU.gif)
+![code](https://i.imgur.com/7vs17wU.gif)
 
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -321,7 +321,7 @@ C_values এবং recall_scores নামের দুইটা লিস্ট
 
 C এর মান বৃদ্ধির সাথে কীভাবে পারফর্মেন্স পরিবর্তন হচ্ছে তার গ্রাফ।
 
-![regularization1](http://i.imgur.com/poHfxeM.png)
+![regularization1](https://i.imgur.com/poHfxeM.png)
 
 C এর মান যখন 2-3 এর মধ্যে তখন Recall Score সবচেয়ে বেশি, C এর মান 4-5 এবং 0-1 এর মধ্যে কম। 
 
@@ -372,7 +372,7 @@ plt.ylabel("recall score")
 
 ### আউটপুট:
 
-![class_weight](http://i.imgur.com/2v4Mb7y.png)
+![class_weight](https://i.imgur.com/2v4Mb7y.png)
 
 ক্লাস ওয়েট `balanced` দেওয়াতে দেখা যাচ্ছে Recall Score বেড়ে 0.73+ হয়েছে, definitely what we were looking for!
 
@@ -489,7 +489,7 @@ avg / total       0.73      0.71      0.72       231
 
 ডেটাসেট থেকে অ্যালগো সিলেকশনের উপরে সাইকিটের নিজস্ব একটা চিটশিট আছে। খুবই ইফেক্টিভ,
 
-![cheatsheet](http://i.imgur.com/acn08NR.png)
+![cheatsheet](https://i.imgur.com/acn08NR.png)
 
 ## শেষ পর্যন্ত যেসব টপিক নিয়ে আলোচনা করা হল
 

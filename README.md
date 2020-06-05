@@ -12,65 +12,64 @@
 
 আর্টিফিশিয়াল ইন্টেলিজেন্স, বিগ ডেটা, ডেটা মাইনিং এ আগ্রহী কিংবা ML প্র্যাকটিশনার , ML হবিস্ট ও ML বিগিনারদের জন্য এই বই। আর্টিফিশিয়াল ইন্টেলিজেন্স এর নাম শুনেছেন কিন্তু অ্যাপ্লাই করার যাদের শখ তারাও চাইলে বইটি পড়তে পারেন। বিস্তারিত নিচে বলা হল।
 
-## বইটি পড়া শুরু করার আগে যা যা জানা লাগবে (* চিহ্নিত টপিক আলোচনা বহির্ভূত থাকবে)<a name="prerequisite"></a>
+## বইটি পড়া শুরু করার আগে যা যা জানা লাগবে (\* চিহ্নিত টপিক আলোচনা বহির্ভূত থাকবে)<a name="prerequisite"></a>
 
-* বেসিক পাইথন প্রোগ্রামিং*
-* লিনিয়ার অ্যালজেব্রা*
-* OOP Python পারলে সেটাকে প্লাস পয়েন্ট হিসেবে ধরা যাবে
-* ক্যালকুলাস (ইন্টিগ্রাল ও ডিফারেনশিয়াল)
-* বেসিক পরিসংখ্যান জ্ঞান যেমন: Mean, Mode, Median, Variance, Co-Variance, Correlation, Standard Deviation...
-
+- বেসিক পাইথন প্রোগ্রামিং\*
+- লিনিয়ার অ্যালজেব্রা\*
+- OOP Python পারলে সেটাকে প্লাস পয়েন্ট হিসেবে ধরা যাবে
+- ক্যালকুলাস (ইন্টিগ্রাল ও ডিফারেনশিয়াল)
+- বেসিক পরিসংখ্যান জ্ঞান যেমন: Mean, Mode, Median, Variance, Co-Variance, Correlation, Standard Deviation...
 
 ## কী কী আলোচনা করা হবে এই বইয়ে?
 
 মেশিন লার্নিং আসলে অনেক বিস্তৃত একটি বিষয়। একটি বইয়ে এটা কম্প্লিট করা সম্ভব নয়। প্রতিনিয়তই ভাল থেকে আরও ভাল মডেল বিল্ড করার পদ্ধতির রিসার্চ চলছে। এই বইয়ে মূলত আপনাকে মেশিন লার্নিংয়ের সাথে পরিচয় করিয়ে দেওয়া হবে, তবে অ্যাডভান্সড লেভেলে যেতে হবে আপনার নিজেরই। তাহলে টপিকগুলো এক নজরে দেখা যাক (সম্পূর্ণ টপিক পরে আপডেট করা হবে):
 
-* প্রয়োজনীয় সফটওয়্যার ইন্সটলেশন
-	* Anaconda Python Distribution ইন্সটলেশন
-	* PyCharm IDE এর সাথে পরিচয় ও ইন্সটলেশন
-	* Sublime Text 3 কে Python এর উপযোগী করে তোলা
+- প্রয়োজনীয় সফটওয়্যার ইন্সটলেশন
+  _ Anaconda Python Distribution ইন্সটলেশন
+  _ PyCharm IDE এর সাথে পরিচয় ও ইন্সটলেশন \* Sublime Text 3 কে Python এর উপযোগী করে তোলা
 
-* মেশিন লার্নিং কিক স্টার্ট
-	* মেশিন লার্নিং কী?
-	* মেশিন লার্নিংয়ের প্রয়োগ কী?
-	* রিগ্রেশন কী?
-	* লিনিয়ার ও পলিনমিয়াল রিগ্রেসন কী?
-	* সিম্পল লিনিয়ার রিগ্রেশন এর মাধ্যমে প্রেডিকশন (Sklearn মডিউল ব্যবহার করে)
-	* সিম্পল লিনিয়ার রিগ্রেশন এর মাধ্যমে প্রেডিকশন (Scratch থেকে মডেল তৈরি করা)
+- মেশিন লার্নিং কিক স্টার্ট
+  _ মেশিন লার্নিং কী?
+  _ মেশিন লার্নিংয়ের প্রয়োগ কী?
+  _ রিগ্রেশন কী?
+  _ লিনিয়ার ও পলিনমিয়াল রিগ্রেসন কী?
+  _ সিম্পল লিনিয়ার রিগ্রেশন এর মাধ্যমে প্রেডিকশন (Sklearn মডিউল ব্যবহার করে)
+  _ সিম্পল লিনিয়ার রিগ্রেশন এর মাধ্যমে প্রেডিকশন (Scratch থেকে মডেল তৈরি করা)
 
-* মেশিন লার্নিং কিক স্টার্ট ২
-	* Supervised Learning
-	* Unsupervised Learning
+- মেশিন লার্নিং কিক স্টার্ট ২
+  _ Supervised Learning
+  _ Unsupervised Learning
 
-* দুইটা প্রয়োজনীয় প্রেডিকশন অ্যালগরিদম
-	* কেন এই দুইটা অ্যালগরিদম প্রয়োজনীয়?
-	* পেনালাইজড রিগ্রেশন মেথড (Penalized Regression Method) কী?
-	* এনসেম্বল মেথড (Ensemble Method) কী?
-	* কীভাবে অ্যালগরিদম সিলেক্ট করবেন?
-	* প্রেডিক্টিভ মডেল তৈরি করার সাধারণ রেসিপি
+- দুইটা প্রয়োজনীয় প্রেডিকশন অ্যালগরিদম
+  _ কেন এই দুইটা অ্যালগরিদম প্রয়োজনীয়?
+  _ পেনালাইজড রিগ্রেশন মেথড (Penalized Regression Method) কী?
+  _ এনসেম্বল মেথড (Ensemble Method) কী?
+  _ কীভাবে অ্যালগরিদম সিলেক্ট করবেন? \* প্রেডিক্টিভ মডেল তৈরি করার সাধারণ রেসিপি
 
-* সমস্যা চিনুন ডেটাসেট চেনার মাধ্যমে
-   * নতুন কোন সমস্যার ব্যবচ্ছেদ
-      * অ্যাট্রিবিউট ও লেবেল কী? সমার্থক শব্দগুলো কী কী?
-      * ডেটাসেট এর যেসব জিনিসের দিকে খেয়াল রাখতে হবে
+- সমস্যা চিনুন ডেটাসেট চেনার মাধ্যমে
 
-* মডেল ও Cost Function
-   * মডেল রিপ্রেজেন্টেশন
-     * Cost Function
-     * Cost Function Intuition - 1
-     * Cost Function Intuition - 2
-     * Ovefitting - আপনার বানানো মডেল কী একটু বেশিই ভাল পার্ফর্ম করছে?
+  - নতুন কোন সমস্যার ব্যবচ্ছেদ
+    - অ্যাট্রিবিউট ও লেবেল কী? সমার্থক শব্দগুলো কী কী?
+    - ডেটাসেট এর যেসব জিনিসের দিকে খেয়াল রাখতে হবে
 
-* Parameter লার্নিং
-   * গ্রেডিয়েন্ট ডিসেন্ট
-   * গ্রেডিয়েন্ট ডিসেন্ট ইনটুইশন
-   * লিনিয়ার রিগ্রেশনে গ্রেডিয়েন্ট ডিসেন্ট
-   * চলবে
+- মডেল ও Cost Function
 
+  - মডেল রিপ্রেজেন্টেশন
+    - Cost Function
+    - Cost Function Intuition - 1
+    - Cost Function Intuition - 2
+    - Ovefitting - আপনার বানানো মডেল কী একটু বেশিই ভাল পার্ফর্ম করছে?
+
+- Parameter লার্নিং
+  - গ্রেডিয়েন্ট ডিসেন্ট
+  - গ্রেডিয়েন্ট ডিসেন্ট ইনটুইশন
+  - লিনিয়ার রিগ্রেশনে গ্রেডিয়েন্ট ডিসেন্ট
+  - চলবে
 
 # সচরাচর জিজ্ঞাস্য প্রশ্ন:
 
 ## মেশিন লার্নিং আমার Career এ কী কাজে লাগবে?
+
 মেশিন লার্নিং খুবই বিস্তৃত একটি এরিয়া, আর্টিফিশিয়াল ইন্টেলিজেন্স থেকে প্যাটার্ন রিকগনিশন এর অন্তর্গত। প্রতিদিনই প্রচুর পরিমাণ ডেটা নিয়ে কাজ চলে। প্যাটার্ন রিকগনিশনের মাধ্যমে এই ডেটাকে গুগল, মাইক্রোসফটের মত বড় বড় কোম্পানি প্রসেস করে। এই কারণেই গুগল সার্চ দিতে এত আরাম। যত ভুলই থাকুক না কেন, সে সেটাকে ঠিক করে নেয়, ধরা যাক আপনি নিয়মিত প্রোগ্রামিং এর উপরে ভিডিও দেখেন ইউটিউবে। বেশ কিছুদিন দেখলে সে এমন এমন সব ভিডিও রিকমেন্ডেশনে দেবে যে মনে হবে এই ভিডিওটাই যেন আপনি চাইছিলেন।
 
 কেরিয়ারে লাগবে কী লাগবে না সেটা আপনার ব্যাপার। আপনি যদি ডাক্তার হন, হাল্কা পাতলা প্রোগ্রামিং পারেন, কিছুটা ML, কিছুটা Data Science এবং কিছুটা NLP (Natural Language Processing) বা NLU (Natural Language Understanding) এর মাধ্যমে বানাতে পারেন আর্টিফিশিয়াল ব্রেইন যেটা হয়ত রোগের লক্ষণ ও রোগ ইনপুট নিতে পারে এবং আউটপুটে প্রতিষেধক দিতে পারে। আপনি যখন কোথাও ঘুরতে যাবেন, চ্যাটবট হিসেবে আপনার তৈরি করা ব্রেইন ই ডাক্তার হিসেবে ছোটখাট রোগের চিকিৎসা করতে পারবে।
@@ -91,30 +90,30 @@
 
 ## কোন কোন বই ফলো করা হবে?
 
-* Machine Learning in Python : Essential Techniques for Predictive Analysis [Wiley] - Michael Bowles
-* Mastering Machine Learning with Scikit-Learn [PACKT]
-* Data Science from Scratch [OREILY] - Joel Grus
-* Building Machine Learning System with Python [PACKT]
-* PRML
-* Stanford's CS223N Course
-
+- Machine Learning in Python : Essential Techniques for Predictive Analysis [Wiley] - Michael Bowles
+- Mastering Machine Learning with Scikit-Learn [PACKT]
+- Data Science from Scratch [OREILY] - Joel Grus
+- Building Machine Learning System with Python [PACKT]
+- PRML
+- Stanford's CS223N Course
 
 ## মেশিন লার্নিং নিয়ে কোন কোন টিভি সিরিজ বানানো হয়েছে?
 
 মেশিন লার্নিং ব্যাপারটা জটিল ও কাঠখোট্টা লাগলেও, কোন কিছু শেখার সময় শুধু থিওরি জানলে সেটা জটিল ও নিরস থেকে যায়। কিন্তু আমরা যদি পাশাপাশি ওই টপিক রিলেটেড মুভি বা সিরিজ দেখি তাহলে আমাদের আগ্রহ বহুগুণ বেড়ে যায়। সেজন্য এই সংক্ষিপ্ত লিস্ট।
 
-## [Person Of Interest](http://www.imdb.com/title/tt1839578/?ref_=fn_al_tt_1)
+## [Person Of Interest](https://www.imdb.com/title/tt1839578/?ref_=fn_al_tt_1)
 
 মেশিন লার্নিং কে বেজড করে চমৎকার উপভোগ্য একটি টিভি সিরিজ, মেশিন লার্নিং কে ভালবাসার জন্য এই একটাই যথেষ্ট। এর মূল চরিত্রে থাকে চরম প্রতিভাবান প্রোগ্রামার Harold Finch ও তার ডান হাত John Reese। Harold Finch এমন একটি মেশিন তৈরি করেন যেটা কোন দুর্ঘটনা ঘটার আগেই প্রেডিক্ট করতে পারে এবং Harold Finch এর কাজ হল সেই দুর্ঘটনা প্রতিরোধ করা।
 
-##### এটাতে দেখানো হয়েছে  
-* Natural Language Understanding (যেখানে Harold তার এই Machine এর সাথে English ল্যাঙ্গুয়েজের মাধ্যমে কমিউনিকেট করে)
+##### এটাতে দেখানো হয়েছে
 
-* Image Processing (Facial Recognition, Object Recognition, Optical Character Recognition ... )
+- Natural Language Understanding (যেখানে Harold তার এই Machine এর সাথে English ল্যাঙ্গুয়েজের মাধ্যমে কমিউনিকেট করে)
 
-* Artifical Neural Network: প্রায়ই দেখা যায় বেশকিছু ছবি লাইনের মাধ্যমে ইন্টারকানেক্টেড, এগুলো দিয়ে আসলে Artifical Neuron এর কানেকশন বোঝানো হয়েছে। এই বইয়ের একটি বিশাল অংশ জুড়ে থাকবে ANN।
+- Image Processing (Facial Recognition, Object Recognition, Optical Character Recognition ... )
 
-## [Silicon Valley](http://www.imdb.com/title/tt2575988/?ref_=nv_sr_1)
+- Artifical Neural Network: প্রায়ই দেখা যায় বেশকিছু ছবি লাইনের মাধ্যমে ইন্টারকানেক্টেড, এগুলো দিয়ে আসলে Artifical Neuron এর কানেকশন বোঝানো হয়েছে। এই বইয়ের একটি বিশাল অংশ জুড়ে থাকবে ANN।
+
+## [Silicon Valley](https://www.imdb.com/title/tt2575988/?ref_=nv_sr_1)
 
 সিরিজটি মূলত প্রতিভাবান প্রোগ্রামার ও তার ডেটা কম্প্রেশন কোম্পানির কাহিনী নিয়ে তবুও এখানে ML এর প্রয়োগটা ৩য় সিজনে বলা হয়।
 
@@ -134,8 +133,8 @@
 
 ### [মানস](https://manash.io)
 
-####  [ওয়েবসাইট](https://blog.manash.io) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](https://github.com/manashmandal)
+#### [ওয়েবসাইট](https://blog.manash.io) | [ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](https://github.com/manashmandal)
 
-> সম্পূর্ণ বিনামূল্যে বইটি যে কেউ পড়তে পারেন ও কন্টেন্ট শেয়ার করতে পারেন কিন্তু মূল কন্টেন্ট অবিকৃত রেখে এবং পর্যাপ্ত ক্রেডিট দিয়ে। কমার্শিয়াল ব্যবহার সম্পূর্ণ নিষিদ্ধ। 
+> সম্পূর্ণ বিনামূল্যে বইটি যে কেউ পড়তে পারেন ও কন্টেন্ট শেয়ার করতে পারেন কিন্তু মূল কন্টেন্ট অবিকৃত রেখে এবং পর্যাপ্ত ক্রেডিট দিয়ে। কমার্শিয়াল ব্যবহার সম্পূর্ণ নিষিদ্ধ।
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.

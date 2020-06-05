@@ -26,7 +26,7 @@
 
 হাটি হাটি পা পা করতে করতে অবশেষে আমরা চলে এলাম শেষের ধাপে,
 
-![modeltest](http://i.imgur.com/YglPD3U.png)
+![modeltest](https://i.imgur.com/YglPD3U.png)
 
 তাহলে শুরু করা যাক।
 
@@ -136,7 +136,7 @@ print "Accuracy of our naive bayes model is: {0:0.4f}".format(accuracy)
 Accuracy of our naive bayes model is: 0.7359
 ```
 
-![p_t](http://i.imgur.com/7hPm7Cz.gif)
+![p_t](https://i.imgur.com/7hPm7Cz.gif)
 
 তার মানে হল সিলেবাসের বাইরে থেকে প্রশ্ন জিজ্ঞাসা করলেও সে ৭০% অ্যাকুরেসির সাথে উত্তর দিতে পারছে, তারমানে তার দেওয়া উত্তরের ৭৩% সঠিক এবং বাকিটা ভুল।
 
@@ -161,7 +161,7 @@ print "Confusion Matrix"
 print "{0}".format(metrics.confusion_matrix(y_test, prediction_from_test_data, labels=[1, 0]))
 ```
 
-![performance2](http://i.imgur.com/z609uE0.gif)
+![performance2](https://i.imgur.com/z609uE0.gif)
 
 ### কনফিউশন ম্যাট্রিক্স
 
@@ -232,7 +232,7 @@ Classification Report
 avg / total       0.74      0.74      0.74       231
 ```
 
-![classification_report](http://i.imgur.com/sdNGDe6.gif)
+![classification_report](https://i.imgur.com/sdNGDe6.gif)
 
 এখানে দুইটা টপিক নিয়ে আমরা একটু আলোচনা করব, একটি হল `Precision` এবং আরেকটি হল `Recall`।
 

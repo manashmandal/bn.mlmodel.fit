@@ -32,7 +32,7 @@
 
 ### গ্রাফ
 
-![graph](http://i.imgur.com/66kJVv1.png)
+![graph](https://i.imgur.com/66kJVv1.png)
 
 
 
@@ -69,7 +69,7 @@ $\alpha$ হচ্ছে 5
 
 ### গ্রাফ
 
-![graph2](http://i.imgur.com/L1NxBES.png)
+![graph2](https://i.imgur.com/L1NxBES.png)
 
 এবার আপনাকে যদি বলি, বাড়ির আকার যদি `6 sq ft` হয় তাহলে প্রাইস কত হবে? এবার আপনি বেশ ঝামেলায় পড়ে যাবেন, কারণ প্রতি স্কয়ার ফিট আকার বৃদ্ধির সাথে বর্ধিত দাম সুষম নয়। আগেরটা বিয়োগ দিয়ে পার্থক্য বের করে সেটার সাথে পার্থক্য যোগ করে পরের প্রাইস পেয়ে যাবেন, সমস্যাটা এত সহজ নয়। কারণ সাথে আবার যুক্ত হয়েছে `No of rooms`।
 
@@ -116,7 +116,7 @@ $$r = \frac{\sum xy}{ \sqrt{ \sum x^{2} \sum y^{2} }}$$
 আরও ব্যাখ্যা যদি চান, উপরের উদাহরণের `Acre` এবং `Sq meter` এর মধ্যকার Correlation Co-efficient ক্যালকুলের করলে `r` এর মান 1 পাবেন।
 
 **প্রমাণ:**
-![corr](http://i.imgur.com/LF7h9hO.gif)
+![corr](https://i.imgur.com/LF7h9hO.gif)
 
 
 
@@ -137,11 +137,11 @@ print data_frame.isnull().values.any()
 
 এটা আবার সেই ডেটাফ্রেমকেই রিটার্ন করে কিন্তু পার্থক্য হল সেখানে আর ভ্যালু থাকে না, Empty Cell রিপ্লেস হয় `True` দিয়ে আর Non-Empty Cell রিপ্লেস হয় `False` দিয়ে।
 
-![checkdata1](http://i.imgur.com/obHUHL6.gif)
+![checkdata1](https://i.imgur.com/obHUHL6.gif)
 
 ##### `values.any()`
 
-![checkdata2](http://i.imgur.com/PslceFv.gif)
+![checkdata2](https://i.imgur.com/PslceFv.gif)
 
 `isnull()` রিটার্ন করে ডেটাফ্রেম, কিন্তু `.values` দিলে সেটা `True/False` এর একটা অ্যারে তে পরিণত হয়।
 
@@ -155,7 +155,7 @@ print data_frame.isnull().values.any()
 
 দেখা যাচ্ছে এখন আউটপুট আসছে `True`। তারমানে কোন না কোন একটা সেল খালি আছে।
 
-![checkdata3](http://i.imgur.com/17S9kjr.gif)
+![checkdata3](https://i.imgur.com/17S9kjr.gif)
 
 ***
 
@@ -253,11 +253,11 @@ U kiddin' bro?
 corr_heatmap(data_frame)
 ```
 
-![heatmap](http://i.imgur.com/hLZ1Jvt.gif)
+![heatmap](https://i.imgur.com/hLZ1Jvt.gif)
 
 ##### জেনারেটেড হিটম্যাপ ক্লোজভিউ
 
-![heatmapcloser](http://i.imgur.com/jr68EBl.png)
+![heatmapcloser](https://i.imgur.com/jr68EBl.png)
 
 
 ### লক্ষণীয়
@@ -284,7 +284,7 @@ del data_frame['skin']
 df.head()
 ```
 
-![vanish](http://i.imgur.com/4StJ8jF.gif)
+![vanish](https://i.imgur.com/4StJ8jF.gif)
 
 ***
 
@@ -304,7 +304,7 @@ df.head()
 
 এটা দিলেই আবারও ডেটাফ্রেমের কিছু স্যাম্পল দেখতে পাবেন এবং ভাল করে লক্ষ করে দেখবেন এখানে সবগুলো ভ্যালুই ফ্লোট বা ইন্টিজার টাইপ কিন্তু একটা রয়ে গেছে `Boolean` টাইপ।
 
-![type](http://i.imgur.com/6HL0KYf.png)
+![type](https://i.imgur.com/6HL0KYf.png)
 
 
 #### ডেটা টাইপ চেঞ্জিং
@@ -322,7 +322,7 @@ data_frame['diabetes'] = data_frame['diabetes'].map(map_diabetes)
 data_frame.head()
 ```
 
-![typechange](http://i.imgur.com/cOLRh2E.gif)
+![typechange](https://i.imgur.com/cOLRh2E.gif)
 
 ### অভিনন্দন!
 
