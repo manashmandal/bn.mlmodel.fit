@@ -63,7 +63,7 @@ module.exports = {
           "/logistic-regression/",
           "/logistic-regression/bernoulli-distribution/",
           "/logistic-regression/exponential-family/",
-          // "/logistic-regression/practical-implementation/",
+          "/logistic-regression/practical-implementation/",
         ],
       },
     ],
