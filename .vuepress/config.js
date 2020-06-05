@@ -29,6 +29,7 @@ module.exports = {
           "/workflow/howto-ask-question/",
           "/workflow/data-processing/",
           "/workflow/data-preprocessing-last/",
+          "/workflow/algorithm-selection/",
         ],
         sidebarDepth: 0,
       },
