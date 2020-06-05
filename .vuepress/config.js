@@ -28,6 +28,7 @@ module.exports = {
           "/workflow/",
           "/workflow/howto-ask-question/",
           "/workflow/data-processing/",
+          "/workflow/data-preprocessing-last/",
         ],
         sidebarDepth: 0,
       },
