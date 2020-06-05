@@ -45,7 +45,7 @@ module.exports = {
       {
         title: "লিনিয়ার রিগ্রেশন",
         collapsible: true,
-        children: ["/linear-regression/"],
+        children: ["/linear-regression/", "/linear-regression/gradient-descent/"],
         sidebarDepth: 0,
       },
     ],
