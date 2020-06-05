@@ -30,6 +30,8 @@ module.exports = {
           "/workflow/data-processing/",
           "/workflow/data-preprocessing-last/",
           "/workflow/algorithm-selection/",
+          "/workflow/model-training/",
+          "/workflow/performance-testing/"
         ],
         sidebarDepth: 0,
       },
