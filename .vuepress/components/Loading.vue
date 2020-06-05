@@ -1,8 +1,9 @@
 <template>
-  <div id="load-div" v-loading.body="loading">
-    <h1 id="title">
-      <font-awesome-icon icon="edit" id="edit-icon" />{{
-        title || "লেখালেখির কাজ চলছে..."
+  <div id="loading-component" v-loading.body="loading">
+    <h1 id="loading-title">
+      <font-awesome-icon icon="edit" id="edit-icon" />
+      {{
+      title || "লেখালেখির কাজ চলছে..."
       }}
     </h1>
   </div>
@@ -12,18 +13,18 @@
 export default {
   data() {
     return {
-      loading: true,
+      loading: true
     };
   },
 
   props: {
-    title: String,
-  },
+    title: String
+  }
 };
 </script>
 
 <style scoped>
-#load-div {
+#loading-component {
   width: 100%;
 }
 
