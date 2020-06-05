@@ -50,6 +50,7 @@ module.exports = {
           "/linear-regression/gradient-descent/",
           "/linear-regression/multivariable-lr/",
           "/linear-regression/practical-lr/",
+          "/linear-regression/gradient-descent-varieties/"
         ],
         sidebarDepth: 0,
       },
@@ -62,15 +63,6 @@ module.exports = {
         delimiters: "dollars",
       },
     ],
-    // [
-    //   "vuepress-plugin-mathjax",
-    //   {
-    //     target: "svg",
-    //     macros: {
-    //       "*": "\\times",
-    //     },
-    //   },
-    // ],
     ["element-ui"],
   ],
 };
