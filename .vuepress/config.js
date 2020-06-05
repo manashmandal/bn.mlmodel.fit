@@ -55,6 +55,17 @@ module.exports = {
         ],
         sidebarDepth: 0,
       },
+      {
+        title: "লজিস্টিক রিগ্রেশন",
+        collapsible: true,
+        sidebarDepth: 0,
+        children: [
+          "/logistic-regression/",
+          // "/logistic-regression/bernoulli-distribution/",
+          // "/logistic-regression/exponential-family/",
+          // "/logistic-regression/practical-implementation/",
+        ],
+      },
     ],
   },
   plugins: [
