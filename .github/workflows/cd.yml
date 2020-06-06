@@ -13,6 +13,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - run: npm install
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install
       - name: Buld and CD
         run: sudo bash deploy.sh ${{ secrets.GITHUB_TOKEN }}
