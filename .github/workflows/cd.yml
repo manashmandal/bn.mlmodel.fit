@@ -13,5 +13,6 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
+      - run: npm install
       - name: Buld and CD
         run: sudo bash deploy.sh ${{ secrets.GITHUB_TOKEN }}
