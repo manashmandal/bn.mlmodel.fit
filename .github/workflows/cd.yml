@@ -17,4 +17,4 @@ jobs:
         with:
           cmd: install
       - run: ls
-      - run: sudo vuepress build
+      - run: sudo ./node_modules/vuepress/cli.js build
