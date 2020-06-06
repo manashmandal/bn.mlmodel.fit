@@ -78,6 +78,12 @@ module.exports = {
         sidebarDepth: 0,
         children: ["/nlp/", "/nlp/bangla-blog-classification/"],
       },
+      {
+        title: "পরিশিষ্ট",
+        collapsible: true,
+        sidebarDepth: 0,
+        children: ["/appendix/", "/appendix/numpy/"],
+      },
     ],
   },
   plugins: [
