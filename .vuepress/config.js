@@ -100,5 +100,15 @@ module.exports = {
         shortname: "bn-mlmodel-fit",
       },
     ],
+    ["@vuepress/back-to-top"],
+    ["@vuepress/nprogress"],
+    ["@vuepress/last-updated"],
+    [
+      "@vuepress/google-analytics",
+      {
+        ga: "UA-168753184-1",
+      },
+    ],
+    ["@vuepress/medium-zoom"],
   ],
 };

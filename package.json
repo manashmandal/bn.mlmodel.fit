@@ -23,6 +23,10 @@
   "devDependencies": {
     "@maginapp/vuepress-plugin-katex": "^1.0.6",
     "@vite/vuepress-plugin-mathjax": "^1.0.0",
+    "@vuepress/plugin-back-to-top": "^1.5.0",
+    "@vuepress/plugin-google-analytics": "^1.5.0",
+    "@vuepress/plugin-medium-zoom": "^1.5.0",
+    "@vuepress/plugin-nprogress": "^1.5.0",
     "core-js": "2",
     "vuepress-plugin-disqus": "^0.2.0",
     "vuepress-plugin-element-ui": "^1.1.0"
