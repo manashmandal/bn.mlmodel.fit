@@ -618,3 +618,5 @@ print(index2label[output[0]])
 ব্যাগ অফ ওয়ার্ডস খুবই সাধারণ টেক্সট ভেক্টরাইজেশন প্রসেস। এরপরে আরও অ্যাডভান্সড টেকনিক দেখানো হবে যেখানে টেক্সটের সিকোয়েন্সকেও আমরা বিবেচনা করে আরও অ্যাকুরেট মডেল তৈরি করতে পারব।
 
 জুপিটার নোটবুক পাওয়া যাবে [এখানে](https://github.com/manashmndl/ml.manash.me/blob/master/nlp/BlogPostClassification.ipynb)।
+
+<Disqus />

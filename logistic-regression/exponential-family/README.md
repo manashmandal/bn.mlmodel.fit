@@ -227,3 +227,5 @@ $$
 ![logreg](https://raw.githubusercontent.com/manashmndl/ml.manash.me/master/logistic_regression/logreg_block.png)
 
 পরবর্তী অধ্যায়ে আমরা ক্লাসিফিকেশন করার জন্য লস ফাংশন ডিরাইভ করব।
+
+<Disqus />

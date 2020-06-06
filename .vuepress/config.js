@@ -94,5 +94,11 @@ module.exports = {
       },
     ],
     ["element-ui"],
+    [
+      "disqus",
+      {
+        shortname: "bn-mlmodel-fit",
+      },
+    ],
   ],
 };

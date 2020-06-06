@@ -24,6 +24,7 @@
     "@maginapp/vuepress-plugin-katex": "^1.0.6",
     "@vite/vuepress-plugin-mathjax": "^1.0.0",
     "core-js": "2",
+    "vuepress-plugin-disqus": "^0.2.0",
     "vuepress-plugin-element-ui": "^1.1.0"
   }
 }

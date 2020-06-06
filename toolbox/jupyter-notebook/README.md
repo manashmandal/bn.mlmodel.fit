@@ -73,3 +73,5 @@ plt.show()
 ![ipython_plot](https://i.imgur.com/8j3gWiv.gif)
 
 IPython এর কাজ দেখানো এই পর্যন্তই! পরবর্তীতে নতুন প্যাকেজগুলোর সাথে পরিচয় করিয়ে দেওয়া হবে।
+
+<Disqus />
