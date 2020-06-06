@@ -7984,6 +7984,11 @@ vuepress-plugin-mathjax@^1.2.8:
     mathjax3 "3.0.0-beta.3"
     vuepress-mergeable "^1.0.2"
 
+vuepress-plugin-reading-progress@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-progress/-/vuepress-plugin-reading-progress-1.0.9.tgz#800cef1ed93abe9ab7aae0147d269d1b1359ef32"
+  integrity sha512-Ge4SmKIjIwStwqx2ZupEVQfcgOBJsx5Wnxmbst1yMBV6J7bJi5sqBzlQtjNIYWZRNfqengjK3xBIRFKnk1TwyA==
+
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.3.tgz#6eff2d4c186cca917cc9f7df2b0af7de7c8c6438"

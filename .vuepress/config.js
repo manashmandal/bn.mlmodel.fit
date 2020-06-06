@@ -110,5 +110,6 @@ module.exports = {
       },
     ],
     ["@vuepress/medium-zoom"],
+    ["reading-progress"],
   ],
 };
