@@ -13,7 +13,4 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - with:
-        script: |
-          cd bn.mlmodel.fit
-          bash deploy.sh
+      - run: cd bn.mlmodel.fit && bash deploy.sh
