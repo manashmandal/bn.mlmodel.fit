@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/bn.mlmodel.fit/",
+  // base: "/bn.mlmodel.fit/",
   title: "মেশিন লার্নিং ও বিভিন্ন প্রোগ্রামিং ল্যাঙ্গুয়েজে ইম্প্লিমেন্টেশন",
   description: "বাংলায় মেশিন লার্নিং সহজ শিক্ষা",
   markdown: {
