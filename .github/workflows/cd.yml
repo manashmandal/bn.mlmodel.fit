@@ -13,19 +13,5 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: install
       - name: Buld and CD
-        run: sudo bash deploy.sh
-      # - run: ls
-      # - run: sudo ./node_modules/vuepress/cli.js build
-      # - run: cd .vuepress/dist
-      # - run: echo "bn.mlmodel.fit" > CNAME
-      # - run: git init
-      # - run: git add -A
-      # - run: git config --global user.email "manashmndl@gmail.com"
-      # - run: git config --global user.name "manashmandal"
-      # - run: ls
-      # - run: git commit -m "Deploy"
-      # - run: git push -f https://manashmandal:${{ secrets.GITHUB_TOKEN }}@github.com/manashmandal/bn.mlmodel.fit.git gh-pages
+        run: sudo bash deploy.sh ${{ secrets.GITHUB_TOKEN }}
