@@ -25,4 +25,4 @@ jobs:
       - run: git config --global user.email "manashmndl@gmail.com"
       - run: git config --global user.name "manashmandal"
       - run: git commit -m "Deploy"
-      - run: git push -f https://manashmandal:${{ secrets.GITHUB_TOKEN }}@github.com/manashmandal/bn.mlmodel.fit.git master:gh-pages
+      - run: git push -f https://manashmandal:${{ secrets.GITHUB_TOKEN }}@github.com/manashmandal/bn.mlmodel.fit.git gh-pages
