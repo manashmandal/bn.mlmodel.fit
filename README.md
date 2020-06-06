@@ -1,5 +1,7 @@
 # মেশিন লার্নিং ও বিভিন্ন প্রোগ্রামিং ল্যাঙ্গুয়েজে ইম্প্লিমেন্টেশন
 
+![DeployGHPages](https://github.com/manashmandal/bn.mlmodel.fit/workflows/DeployGHPages/badge.svg?branch=master)
+
 [[toc]]
 
 ## সংক্ষেপ
