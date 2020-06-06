@@ -9,5 +9,5 @@ git add -A
 
 git commit -m "deploy"
 
-
-git push -f git@github.com:manashmandal/bn.mlmodel.fit.git master:gh-pages
+ls
+# git push -f git@github.com:manashmandal/bn.mlmodel.fit.git master:gh-pages

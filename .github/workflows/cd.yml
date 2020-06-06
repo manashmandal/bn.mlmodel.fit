@@ -17,12 +17,7 @@ jobs:
         with:
           cmd: install
       - name: Buld and CD
-        with:
-          script: |
-            ls
-            sudo ./node_modules/vuepress/cli.js build
-            cd .vuepress/dist
-            ls
+        run: sudo bash deploy.sh
       # - run: ls
       # - run: sudo ./node_modules/vuepress/cli.js build
       # - run: cd .vuepress/dist
