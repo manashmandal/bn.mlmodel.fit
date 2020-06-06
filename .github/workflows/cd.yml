@@ -18,3 +18,9 @@ jobs:
           cmd: install
       - run: ls
       - run: sudo ./node_modules/vuepress/cli.js build
+      - run: cd .vuepress/dist
+      - run: echo "bn.mlmodel.fit" > CNAME
+      - run: git init
+      - run: git add -A
+      - run: git commit -m "Deploy"
+      - run: git push -f https://manashmandal:${{ secrets.GITHUB_TOKEN }}@github/manashmandal/bn.mlmodel.fit.git master:gh-pages
