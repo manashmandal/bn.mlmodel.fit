@@ -73,7 +73,7 @@ module.exports = {
         children: ["/softmax-regression/"],
       },
       {
-        title: "ন্যাচার-+-+ল ল্যাঙ্গুয়েজ প্রসেসিং",
+        title: "ন্যাচারাল ল্যাঙ্গুয়েজ প্রসেসিং",
         collapsible: true,
         sidebarDepth: 0,
         children: ["/nlp/", "/nlp/bangla-blog-classification/"],
