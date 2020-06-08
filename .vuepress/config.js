@@ -1,6 +1,21 @@
 module.exports = {
   // base: "/bn.mlmodel.fit/",
   title: "মেশিন লার্নিং ও বিভিন্ন প্রোগ্রামিং ল্যাঙ্গুয়েজে ইম্প্লিমেন্টেশন",
+  head: [
+    [
+      "script",
+      {},
+      `
+  var _hmt = _hmt || []; 
+  (function() { 
+  var hm = document.createElement("script"); 
+  hm.src = "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"; 
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s); 
+  })(); 
+`,
+    ],
+  ],
   description: "বাংলায় মেশিন লার্নিং সহজ শিক্ষা",
   markdown: {
     extendMarkdown: (md) => {
@@ -83,6 +98,12 @@ module.exports = {
         collapsible: true,
         sidebarDepth: 0,
         children: ["/appendix/", "/appendix/numpy/"],
+      },
+      {
+        title: "Experimental",
+        collapsible: true,
+        sidebarDepth: 0,
+        children: ["/experimental/"],
       },
     ],
   },
