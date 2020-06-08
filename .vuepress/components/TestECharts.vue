@@ -1,59 +1,44 @@
 <template>
-  <v-chart :options="polar" />
+  <div>
+    <v-chart :options="line" />
+    <button @click="addData">ADD</button>
+  </div>
 </template>
 
 <script>
 import "echarts/lib/chart/line";
-import "echarts/lib/component/polar";
 
 export default {
   data() {
-    let data = [];
-
-    for (let i = 0; i <= 360; i++) {
-      let t = (i / 180) * Math.PI;
-      let r = Math.sin(2 * t) * Math.cos(2 * t);
-      data.push([r, i]);
-    }
-
-    console.log(data);
+    this.xvalues = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    this.yvalues = [820, 932, 901, 934, 1290, 1330, 1320];
 
     return {
-      polar: {
-        title: {
-          text: "极坐标双数值轴",
+      line: {
+        xAxis: {
+          type: "category",
+          data: this.xvalues,
         },
-        legend: {
-          data: ["line"],
-        },
-        polar: {
-          center: ["50%", "54%"],
-        },
-        tooltip: {
-          trigger: "axis",
-          axisPointer: {
-            type: "cross",
-          },
-        },
-        angleAxis: {
+        yAxis: {
           type: "value",
-          startAngle: 0,
-        },
-        radiusAxis: {
-          min: 0,
         },
         series: [
           {
-            coordinateSystem: "polar",
-            name: "line",
+            data: this.yvalues,
             type: "line",
-            showSymbol: false,
-            data: data,
           },
         ],
-        animationDuration: 2000,
       },
     };
+  },
+
+  methods: {
+    addData() {
+      this.yvalues.push(Math.round(Math.random() * 100));
+      this.xvalues.push("Mon");
+      console.log("ADDING");
+      console.log(Math.round(Math.random() * 5000));
+    },
   },
 };
 </script>
