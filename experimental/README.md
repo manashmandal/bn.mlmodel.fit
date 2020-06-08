@@ -1,1 +1,3 @@
 <TestECharts/>
+
+<AddData/>
