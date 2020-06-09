@@ -1,3 +1,1 @@
-<TestECharts/>
-
-<AddData/>
+<LinearRegressionChapter1_1 />
