@@ -1,1 +1,3 @@
-<LinearRegressionChapter1_1 />
+<!-- <LinearRegressionChapter1_1 /> -->
+
+<PlotVuex/>

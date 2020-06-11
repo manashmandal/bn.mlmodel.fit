@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import ECharts from "vue-echarts";
 import VueKatex from "vue-katex";
 import "katex/dist/katex.min.css";
+import Vuex from "vuex";
 
 library.add(faEdit);
 
@@ -17,6 +18,7 @@ export default ({
   Vue.component("font-awesome-icon", FontAwesomeIcon);
   Vue.component("v-chart", ECharts);
   Vue.use(VueKatex);
+  Vue.use(Vuex);
   // Vue.component("v-katex", VueKatex);
   // ...apply enhancements to the app
 };

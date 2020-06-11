@@ -24,7 +24,8 @@
     "vuepress": "^1.5.0",
     "vuepress-plugin-font-awesome": "^1.90.6",
     "vuepress-plugin-mathjax": "^1.2.8",
-    "vuepress-plugin-reading-progress": "^1.0.9"
+    "vuepress-plugin-reading-progress": "^1.0.9",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@maginapp/vuepress-plugin-katex": "^1.0.6",
