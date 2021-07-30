@@ -275,7 +275,7 @@ $$
 $$
 \begin{aligned}
 P(Head \, Count =5 | Previous \, Result = Tail)
-&= P(T) \times P(H|T) \times P(T) \times P(H|T) \times  P(T) \times P(H|T) \times P(T) \times P(H|T)   \\
+&= P(T) \times P(H|T) \times P(T) \times P(H|T) \times  P(T) \times P(H|T) \times P(T) \times P(H|T) \times P(T) \times P(H|T)  \\
 &= P(H|T)^5 \times P(T)^5 \\
 &= P(H)^5 \times P(T)^5\\
 &= 0.5^5 \times 0.5^5 \times 100 \\
